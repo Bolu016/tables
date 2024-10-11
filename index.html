@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>     
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    background-color: rgb(78, 77, 77);
+}
+    </style>
+</head>
+<body>
+   <div>
+     <h1>HTML TABLES</h1>
+        <h3>Examples</h3>
+        <div class="tables">
+            <hr>
+            
+            <table border="2" 
+            cellspacing="1"
+            cellpadding="10" 
+            width="100%"
+            height="100%">
+                <h2> 1.  write HTML code to create the following tables:</h2>
+               
+                         
+               <thead>
+                 <tr>
+                    <th colspan="4">Table of Dog Breeds</th>
+                 <tr>
+                    <tr> 
+                        <th>Breed</th>
+                        <th>Description</th>
+                        <th>Group</th>
+                        <th>Organisation</th>                   
+                    </tr>
+               </thead>
+
+               <tbody>
+                <tr>
+                    <td>French Bulldog</td>
+                    <td>Loyal Companion</td>
+                    <td>Non-Sporting</td>
+                    <td rowspan="4">All listed dogs are AKC recognised</td>
+                </tr>
+
+                <tr>
+                    <td>Wheaten Terrier</td>
+                    <td>High energy,friendly</td>
+                    <td>Terrier</td>
+                    <!-- <td >All listed dogs are AKC recognised</td> -->
+                </tr>
+                <tr>
+                    <td>English Pointer</td>
+                    <td>Hunting Companion</td>
+                    <td>Sporting</td>
+                    <!-- <td>All listed dogs are AKC recognised</td> -->
+                </tr>
+
+                <tr>
+                    <td>Australian Cattle Dog</td>
+                    <td>Guarding,herding</td>
+                    <td>Working</td>
+                    <!-- <td>All listed dogs are AKC recognised</td> -->
+                </tr>
+               </tbody>
+           </table>
+        </div>
+   </div>
+</body>
+</html>
